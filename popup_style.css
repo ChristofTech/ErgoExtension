@@ -1,0 +1,30 @@
+
+body{
+  text-align: "center";
+  width: 300px;
+  height: auto;
+
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+}
+
+.timerCountainer, #cupsContainer{
+  display: flex;
+  flex-flow: row wrap;
+  border: solid 1px black;
+  width: 90%;
+  height: auto;
+  justify-content: center;
+}
+
+.cupStyle {
+  border: solid 1px blue;
+  width: 10%;
+  height: 10vw;
+  margin: 0.1em auto;
+}
+
+.cupFilled {
+  background-color: lightblue;
+}
